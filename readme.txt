@@ -1,5 +1,5 @@
+![Screenshot](PPGSynth.png)
 
-![alt text](https://github.com/Elgendi/PPG-Synthesis/PPGSynth.png)
 
 PPGSynth Executable
 
