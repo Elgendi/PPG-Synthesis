@@ -1,3 +1,6 @@
+![Test Image 1](PPGSynth3.png)
+
+
 PPGSynth Executable
 
 1. Prerequisites for Deployment 
