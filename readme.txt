@@ -1,5 +1,4 @@
-![Test Image 1](PPGSynth3.png)
-
+<img src="./PPGSynth3.png">
 
 PPGSynth Executable
 
