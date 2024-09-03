@@ -1,47 +1,40 @@
 ![Screenshot](PPGSynth.png)
 
+# PPGSynth Executable
 
-PPGSynth Executable
+## Prerequisites for Deployment
 
-##  Prerequisites for Deployment 
+To ensure proper functionality, verify that version 9.8 (R2020a) of the MATLAB Runtime is installed. 
 
-Verify that version 9.8 (R2020a) of the MATLAB Runtime is installed.   
-If not, you can run the MATLAB Runtime installer.
-To find its location, enter
-  
-    >>mcrinstaller
-      
-at the MATLAB prompt.
-NOTE: You will need administrator rights to run the MATLAB Runtime installer. 
+If the MATLAB Runtime is not installed, follow these steps:
 
-Alternatively, download and install the Windows version of the MATLAB Runtime for R2020a 
-from the following link on the MathWorks website:
+1. Run the MATLAB Runtime installer:
+   - Open MATLAB and enter the following command:
+     ```matlab
+     >>mcrinstaller
+     ```
+   - **Note:** Administrator rights are required to run the MATLAB Runtime installer.
 
-    https://www.mathworks.com/products/compiler/mcr/index.html
-   
-For more information about the MATLAB Runtime and the MATLAB Runtime installer, see 
-"Distribute Applications" in the MATLAB Compiler documentation  
-in the MathWorks Documentation Center.
+2. Alternatively, you can download and install the MATLAB Runtime for R2020a directly from the MathWorks website:
+   - [Download MATLAB Runtime](https://www.mathworks.com/products/compiler/mcr/index.html)
 
-##  Files to Package for Standalone 
-================================
--PPGSynth.exe
--MCRInstaller.exe 
-    Note: if end users are unable to download the MATLAB Runtime using the
-    instructions in the previous section, include it when building your 
-    component by clicking the "Runtime included in package" link in the
-    Deployment Tool.
--This readme file 
+For more detailed information about the MATLAB Runtime and the installer, refer to the "Distribute Applications" section in the MATLAB Compiler documentation available in the MathWorks Documentation Center.
 
+## Files to Package for Standalone Deployment
 
+Ensure that the following files are included in your package:
 
-##  Definitions
+- **PPGSynth.exe**: The main executable file.
+- **MCRInstaller.exe**: MATLAB Runtime installer.
+  - **Note:** If end users are unable to download the MATLAB Runtime using the instructions provided, include this file when building your component by selecting the "Runtime included in package" option in the Deployment Tool.
+- **This README file**: Documentation for deployment and usage.
 
-For information on deployment terminology, go to
-https://www.mathworks.com/help and select MATLAB Compiler >
-Getting Started > About Application Deployment >
-Deployment Product Terms in the MathWorks Documentation
-Center.
+## Definitions
+
+For more information on deployment terminology, visit the MathWorks Documentation Center and navigate to:
+- MATLAB Compiler > Getting Started > About Application Deployment > Deployment Product Terms.
+
+[Visit the MathWorks Documentation Center](https://www.mathworks.com/help)
 
 ## Dynamic Modeling of PPG Signals
 
