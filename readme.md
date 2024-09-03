@@ -4,6 +4,7 @@
 
 ## 1. Prerequisites for Deployment
 ===================================
+
 To ensure proper functionality, verify that version 9.8 (R2020a) of the MATLAB Runtime is installed. 
 
 If the MATLAB Runtime is not installed, follow these steps:
@@ -22,6 +23,7 @@ For more detailed information about the MATLAB Runtime and the installer, refer 
 
 ## 2. Files to Package for Standalone
 ======================================
+
 - **PPGSynth.exe**: The main executable file.
 - **MCRInstaller.exe**: MATLAB Runtime installer.
   - **Note:** If end users are unable to download the MATLAB Runtime using the instructions provided, include this file when building your component by selecting the "Runtime included in package" option in the Deployment Tool.
@@ -29,6 +31,7 @@ For more detailed information about the MATLAB Runtime and the installer, refer 
 
 ## 3. Definitions
 ==================
+
 For information on deployment terminology, visit the MathWorks Documentation Center and navigate to:
 - MATLAB Compiler > Getting Started > About Application Deployment > Deployment Product Terms.
 
