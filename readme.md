@@ -37,7 +37,7 @@ For information on deployment terminology, visit the MathWorks Documentation Cen
 
 [Visit the MathWorks Documentation Center](https://www.mathworks.com/help)
 
-## Dynamic Modeling of PPG Signals
+## 4. Dynamic Modeling of PPG Signals
 ===================================
 
 Previous studies have attempted to model PPG (Photoplethysmography) pulses using various approaches:
