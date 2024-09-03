@@ -45,8 +45,7 @@ Getting Started > About Application Deployment >
 Deployment Product Terms in the MathWorks Documentation
 Center.
 
-4. Dynamic Modeling of PPG Signals
-
+Dynamic Modeling of PPG Signals
 Previous studies have attempted to model PPG (Photoplethysmography) pulses using various approaches:
 
 McSharry et al. introduced a dynamical model for generating synthetic ECG signals, which laid the groundwork for modeling biological signals like PPG. Their work has influenced subsequent research in synthetic biomedical signal generation [McSharry et al., 2003].
@@ -57,10 +56,10 @@ Martin-Martinez et al. proposed stochastic modeling to synthesize PPG signals. T
 Couceiro et al. assessed cardiovascular function from multi-Gaussian fitting of a finger photoplethysmogram, demonstrating the application of Gaussian models in analyzing cardiovascular health [Couceiro et al., 2015].
 Solosenko et al. developed a model for simulating PPG during atrial fibrillation, using a combination of log-normal and Gaussian waveforms. Their model required an ECG signal as an input parameter to connect individual PPG pulses according to RR intervals [Solosenko et al., 2017].
 Tang et al. introduced a method for generating synthetic PPG signals using two Gaussian functions, further refining the modeling process [Tang et al., 2020].
-Our Contribution: Unlike previous models that either focus on individual pulses or require additional inputs such as ECG signals, our dynamic model generates synthetic PPGs of varying lengths and sampling frequencies independently. This makes it a versatile tool for various applications in PPG signal analysis.
+Our Contribution
+Unlike previous models that either focus on individual pulses or require additional inputs such as ECG signals, our dynamic model generates synthetic PPGs of varying lengths and sampling frequencies independently. This makes it a versatile tool for various applications in PPG signal analysis.
 
-References:
-
+References
 McSharry, P. E., Clifford, G. D., Tarassenko, L. & Smith, L. A. A dynamical model for generating synthetic electrocardiogram signals. IEEE Trans. Biomed. Eng. 50, 289–294 (2003).
 Shariati, N. H. & Zahedi, E. Comparison of selected parametric models for analysis of the photoplethysmographic signal. In The International Conference on Computers, Communications, and Signal Processing with Special Track on Biomedical Engineering, 169–172 (2005).
 Wang, L., Xu, L., Feng, S., Meng, M. Q. & Wang, K. Multi-Gaussian fitting for pulse waveform using weighted least squares and multi-criteria decision making method. Comput. Biol. Med. 43, 1661–1672 (2013).
@@ -68,6 +67,4 @@ Liu, C., et al. Modeling carotid and radial artery pulse pressure waveforms by c
 Martin-Martinez, D., Casaseca-de-la-Higuera, P., Martin-Fernandez, M. & Alberola-Lopez, C. Stochastic modeling of the PPG signal: a synthesis-by-analysis approach with applications. IEEE Trans. Biomed. Eng. 60, 2432–2441 (2013).
 Couceiro, R., et al. Assessment of cardiovascular function from multi-Gaussian fitting of a finger photoplethysmogram. Physiological Measurement 36.9, 1801 (2015).
 Solosenko, A., Petrenas, A., Marozas, V. & Sornmo, L. Modeling of the photoplethysmogram during atrial fibrillation. Comput. Biol. Med. 81, 130–138 (2017).
-Tang, Q., Chen, Z., Ward, R. et al. Synthetic photoplethysmogram generation using two Gaussian functions. Sci Rep 10, 13883 (2020).
-
-
+Tang, Q., Chen, Z., Ward, R. et al. Synthetic photoplethysmogram generation using two Gaussian functions. Sci Rep 10, 13883 (2020). https://doi.org/10.1038/s41598-020-69076-x.
