@@ -50,7 +50,7 @@ Previous studies laid the foundational work for this research:
 - **Martin-Martinez et al.** proposed stochastic modeling to synthesize PPG signals. Their approach involved a single-pulse model based on two Gaussian functions with 10 parameters, using autoregressive moving average models to approximate these parameters [Martin-Martinez et al., 2013].
 - **Couceiro et al.** assessed cardiovascular function from multi-Gaussian fitting of a finger photoplethysmogram, demonstrating the application of Gaussian models in analyzing cardiovascular health [Couceiro et al., 2015].
 - **Solosenko et al.** developed a model for simulating PPG during atrial fibrillation, using a combination of log-normal and Gaussian waveforms. Their model required an ECG signal as an input parameter to connect individual PPG pulses according to RR intervals [Solosenko et al., 2017].
-- **Tang et al.** introduced a method for generating synthetic PPG signals using two Gaussian functions, further refining the modeling process [Tang et al., 2020].
+- **Tang et al.** introduced a method for generating synthetic PPG signals using two Gaussian functions, further refining the modeling process [Tang et al., 2020]. Our work was inspired by all research done on modeling above, in particular the work done by McSharry et al.
 
 ### Our Contribution
 Unlike previous models that either focus on individual pulses or require additional inputs such as ECG signals, our dynamic model generates synthetic PPGs of varying lengths and sampling frequencies independently. This makes it a versatile tool for various applications in PPG signal analysis.
