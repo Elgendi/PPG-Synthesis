@@ -3,7 +3,7 @@
 
 PPGSynth Executable
 
-1. Prerequisites for Deployment 
+##  Prerequisites for Deployment 
 
 Verify that version 9.8 (R2020a) of the MATLAB Runtime is installed.   
 If not, you can run the MATLAB Runtime installer.
@@ -23,9 +23,7 @@ For more information about the MATLAB Runtime and the MATLAB Runtime installer, 
 "Distribute Applications" in the MATLAB Compiler documentation  
 in the MathWorks Documentation Center.
 
-2. Files to Deploy and Package
-
-Files to Package for Standalone 
+##  Files to Package for Standalone 
 ================================
 -PPGSynth.exe
 -MCRInstaller.exe 
@@ -37,7 +35,7 @@ Files to Package for Standalone
 
 
 
-3. Definitions
+##  Definitions
 
 For information on deployment terminology, go to
 https://www.mathworks.com/help and select MATLAB Compiler >
