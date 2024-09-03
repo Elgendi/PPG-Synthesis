@@ -40,7 +40,7 @@ For information on deployment terminology, visit the MathWorks Documentation Cen
 ## 4. Dynamic Modeling of PPG Signals
 ===================================
 
-Previous studies have attempted to model PPG (Photoplethysmography) pulses using various approaches:
+Previous studies laid the foundational work for this research:
 
 - **Lagerholm et al.** used Hermite functions, which are closely related to Gaussians, for clustering ECG complexes. This work laid down the statistical foundation that is essential for ECG modeling and biomedical signal synthesis [Lagerholm et al., 2000].
 - **McSharry et al.** introduced a dynamical model for generating synthetic ECG signals, which laid the groundwork for modeling biological signals like PPG. Their work has influenced subsequent research in synthetic biomedical signal generation [McSharry et al., 2003].
