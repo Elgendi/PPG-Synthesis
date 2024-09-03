@@ -39,7 +39,7 @@ For information on deployment terminology, visit the MathWorks Documentation Cen
 
 Previous studies have attempted to model PPG (Photoplethysmography) pulses using various approaches:
 
-- **Lagerholm et al.** used Hermite functions (closely related to Gaussians) for clustering ECG complexes, which could have been referenced to strengthen the statistical foundation for modeling and signal synthesis [Lagerholm et al., 2000].
+- **Lagerholm et al.** used Hermite functions, which are closely related to Gaussians, for clustering ECG complexes. This work laid down the statistical foundation that is essential for ECG modeling and biomedical signal synthesis [Lagerholm et al., 2000].
 - **McSharry et al.** introduced a dynamical model for generating synthetic ECG signals, which laid the groundwork for modeling biological signals like PPG. Their work has influenced subsequent research in synthetic biomedical signal generation [McSharry et al., 2003].
 - **Shariati and Zahedi** compared four linear parametric models for analyzing PPG signals, highlighting the strengths and limitations of each approach [Shariati & Zahedi, 2005].
 - **Wang et al.** utilized multi-Gaussian functions to fit single PPG waveforms, exploring the effects of different numbers of Gaussian functions on the simulation [Wang et al., 2013].
