@@ -39,13 +39,14 @@ For information on deployment terminology, visit the MathWorks Documentation Cen
 
 ## 4. Dynamic Modeling of PPG Signals
 ===================================
+
 This section reflects our perspective on the development of modeling PPG signals. I would like to highlight that PPG is often referred to by different acronyms, which can make it easy to overlook relevant articles using alternative terminology. Additionally, the similarities in waveform morphology across various biomedical signals, such as blood pressure and PPG, can sometimes lead to models being overlooked if they are applied to a different physiological parameter. That said, I have shared below the previous works that have influenced our approach to PPG modeling. If there are any other models that were published but inadvertently missed, please feel free to inform me, and I will promptly update the references.
 
 Previous studies laid the foundational work for this research:
 
 - **Lagerholm et al.** used Hermite functions, closely related to Gaussians, for clustering ECG complexes. Hermite functions not only capture variations in waveform morphology but also provide a mathematical framework that can be adapted for waveform synthesis. By generalizing Gaussian functions, they allow for precise control over signal features, which is essential for generating synthetic signals that mimic real physiological patterns. This approach is thus highly relevant not only for analyzing ECG and PPG signals but also for synthesizing realistic waveforms for testing and modeling purposes [Lagerholm et al., 2000].
 - **McSharry et al.** introduced a dynamical model for generating synthetic ECG signals, which laid the groundwork for modeling biological signals like PPG. Their work has influenced subsequent research in synthetic biomedical signal generation [McSharry et al., 2003].
-- - **Clifford et al.** generated 24-hour ECG, blood pressure, and respiratory signals with realistic linear and nonlinear clinical characteristics using a nonlinear model. This paper is key in generating synthetic biomedical signals [Clifford et al., 2004].
+- **Clifford et al.** generated 24-hour ECG, blood pressure, and respiratory signals with realistic linear and nonlinear clinical characteristics using a nonlinear model. This paper is key in generating synthetic biomedical signals [Clifford et al., 2004].
 - **Shariati and Zahedi** compared four linear parametric models for analyzing PPG signals, highlighting the strengths and limitations of each approach [Shariati & Zahedi, 2005].
 - **Wang et al.** utilized multi-Gaussian functions to fit single PPG waveforms, exploring the effects of different numbers of Gaussian functions on the simulation [Wang et al., 2013].
 - **Liu et al.** modeled carotid and radial artery pulse pressure waveforms using Gaussian curve fitting, providing insights into cardiovascular health through waveform analysis [Liu et al., 2013].
