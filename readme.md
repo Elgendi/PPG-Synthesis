@@ -39,6 +39,7 @@ For information on deployment terminology, visit the MathWorks Documentation Cen
 
 ## 4. Dynamic Modeling of PPG Signals
 ===================================
+This section reflects our perspective on the development of modeling PPG signals. I would like to highlight that PPG is often referred to by different acronyms, which can make it easy to overlook relevant articles using alternative terminology. Additionally, the similarities in waveform morphology across various biomedical signals, such as blood pressure and PPG, can sometimes lead to models being overlooked if they are applied to a different physiological parameter. That said, I have shared below the previous works that have influenced our approach to PPG modeling. If there are any other models that were published but inadvertently missed, please feel free to inform me, and I will promptly update the references.
 
 Previous studies laid the foundational work for this research:
 
@@ -59,7 +60,7 @@ Unlike previous models that focus on individual pulses or rely on additional inp
 ### References
 1. **Lagerholm, M., et al.** Clustering ECG complexes using Hermite functions and self-organizing maps. *IEEE Transactions on Biomedical Engineering*, 47(7), 838-848 (2000).
 2. **McSharry, P. E., Clifford, G. D., Tarassenko, L. & Smith, L. A.** A dynamical model for generating synthetic electrocardiogram signals. *IEEE Trans. Biomed. Eng.* 50, 289–294 (2003).
-3. **Clifford, G. D., McSharry, P. E., Tarassenko, L. & Smith, L. A.** Generating 24-hour ECG, BP and respiratory signals with realistic linear and nonlinear clinical characteristics using a nonlinear model. *Computers in Cardiology*, 709-712 (2004).
+3. **Clifford, G. D. and McSharry, P. E.** Generating 24-hour ECG, BP and respiratory signals with realistic linear and nonlinear clinical characteristics using a nonlinear model. *Computers in Cardiology*, 709-712 (2004).
 4. **Shariati, N. H. & Zahedi, E.** Comparison of selected parametric models for analysis of the photoplethysmographic signal. In *The International Conference on Computers, Communications, and Signal Processing with Special Track on Biomedical Engineering*, 169–172 (2005).
 5. **Wang, L., Xu, L., Feng, S., Meng, M. Q. & Wang, K.** Multi-Gaussian fitting for pulse waveform using weighted least squares and multi-criteria decision making method. *Comput. Biol. Med.* 43, 1661–1672 (2013).
 6. **Liu, C., et al.** Modeling carotid and radial artery pulse pressure waveforms by curve fitting with Gaussian functions. *Biomed. Signal Process. Control* 8, 449–454 (2013).
